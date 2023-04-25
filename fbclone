@@ -86,7 +86,7 @@ bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "0
 done = False
 ugen=[]
 uas=[]
-usa = ["Mozilla/5.0 Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))} (KHTML, like Gecko) Version/{str(rr(20,100))}.0.{str(rr(1111,9999))} Safari/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))}"]
+usa = ["Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBDM/{str(application_version_code)};FBLC/en_US;FBCR/'+'{density=3.0,width=1080,height=1920};'+FBPN/com.facebook.katana;FBDV/DROID_BIONIC;FBSV/4.1.2;FBOP/18;FBCA/samsung;FBDV/NUNU JISAN-SM-G900A;FBSV/{str(fbs)};FBCA/armeabi-v7a:armeabi;]
 rr = random.randint
 for xd in range(3005):
     ff=(f'Mozilla/5.0 Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))} (KHTML, like Gecko) Version/{str(rr(20,100))}.0.{str(rr(1111,9999))} Safari/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))}')
