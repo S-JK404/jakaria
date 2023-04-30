@@ -14,7 +14,10 @@
 
 Run :
 
-rm -rf jakaria 
-git clone https://github.com/S-JK404/jakaria
-cd jakaria 
-python fbclone
+$ rm -rf jakaria 
+
+$ git clone https://github.com/S-JK404/jakaria
+
+$ cd jakaria 
+
+$ python fbclone
